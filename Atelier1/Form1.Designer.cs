@@ -241,6 +241,7 @@
             textBox_Courriel.Name = "textBox_Courriel";
             textBox_Courriel.Size = new Size(200, 23);
             textBox_Courriel.TabIndex = 15;
+            textBox_Courriel.TextChanged += textBox_Courriel_TextChanged;
             // 
             // button_Quitter
             // 
